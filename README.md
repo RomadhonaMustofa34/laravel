@@ -48,7 +48,10 @@ Aplikasi ini digunakan untuk melakukan pemesanan kendaraan dinas secara online, 
 
 # Cara Install Aplikasi
 
-## 1. Clone Repository
+## 1. Download aplikasi via github
+## 1. Buat database bernama "pemesanan"
 
-```bash
-git clone [https://github.com/nama-project.git](https://github.com/RomadhonaMustofa34/laravel)
+php artisan optimize
+php artisan migrate:fresh
+php artisan db:seed
+php artisan serve
